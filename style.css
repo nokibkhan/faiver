@@ -1,0 +1,183 @@
+@media only screen and (min-width: 770px) {
+	body{scroll-behavior: smooth;}
+    .displaymobile{display: none;}
+.ratembl{display: none}
+	.experience{display: none}
+     .reviewmbl{display: none}
+     .extraconmbl{display: none}
+     #navbarmbl{display: none}
+     .footermbl {display: none}    
+ #mainheader{z-index:-2}
+#navbar ul li{list-style: none;float: left}
+#navbar ul li a{text-decoration: none;padding: 0px 24px;color: white;}
+#description{position: absolute;top: 35%;left: 5%;color: white}
+#description p{word-spacing: 5px;letter-spacing: 5px;padding: 0px 18px}
+#extraheader{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 100vh;
+width: 100%;
+background: url("colorBrush.jpg");
+z-index: -1;
+background-size:cover;
+background-repeat: no-repeat;
+
+
+}
+
+#navbarnav{position:absolute;top: 0 ;height: 100vh;background:  #1f3161;width: 100%;position: absolute;right: -500px;transition: all .5s ease}
+#navbarnav h2{text-align: center;color: white;background:#7c0364 ;padding: 15px 0px  }
+#navbarnav ul li{padding: 45px 0px;list-style: none;}
+#navbarnav ul li a{color: white;text-decoration: none;}
+
+
+
+#check{position: absolute;display: none}
+label #menu,label #cross{position: absolute;}
+#menu{top:25px;}
+#cross{right:-375px;z-index: 111;display:none;transition: all .5s }
+#check:checked~#navbarnav{right: 0;}
+#check:checked~label #cross{right:18px;display: block;}
+
+.experiencepage{text-align:center;background:#10302f;height:auto}
+#experiencepage-item {color: white;padding: 150px 0px}
+#experiencepage-item span{border:10px solid white;padding: 50px 50px;border-radius: 50%;font-size:36px;background:white;color:#fff;background: rgba(0,0,0,0.6);}
+#experiencepage-item h2{padding: 100px 0px}
+#extranav{background: #8739c6;}
+.experiencepage h1{color: white;padding: 50px 0px;font-weight: bold;}
+#extranav a{color: white;padding: 18px 35px;font-size: 16px}
+     .footer {background: black;padding: 50px 0px}
+	.list-item li{list-style: none;padding: 20px 0px}
+	.list-item li a{text-decoration: none;color: white}
+.footer .list-item  i{padding: 35px 15px;color: white!important}
+.footer .list-item button{border: none;background: red;color: white}
+.card-tiitle{text-align: center;transition: all .5s;padding: 15px 0px}
+.card-tiitle img{width: 100px ;height: 100px;border-radius: 50%}
+.card-tiitle p{padding: 15px;letter-spacing: 2px}
+.review{padding:100px 0;}
+.review h1{text-align: center;padding-bottom: 100px;color: green}
+.card-tiitle:hover{box-shadow: 0 0 55px 0 rgba(0,0,0,0.4);transform: scale(1.1);}
+
+.rate{text-align: center;padding: 100px 0px;}
+.rate h1{padding: 40px 0px;color: green}
+
+.rate span{font-size: 24px;color:yellow;transition: .5s}
+.rate-item:hover span{color: yellow;}
+.rate-item{padding: 50px 35px;background: #008080;color: white;transition: all .6s}
+.rate-item:hover{box-shadow: 0 0 55px 0 rgba(0,0,0,0.6);transform: translateY(-20px);}
+.rate-item:hover p{color:#ffff00}
+.rate-item button{background: #8739c6;;color: white;padding: 0px 15px ;border: none;outline: none;border-radius: 8px}
+.rate-item:hover button{background:red}
+.extracon{width: 100%;background-image: url("10069.jpg");height: 100vh;background-size: cover;background-repeat: no-repeat;}
+#contact{padding: 35px 0px}
+
+#subcon{background:rgba(0,0,0,.8);width: 70%;height: 80vh;margin: auto;margin: 50px auto;color: white;padding: 35px 0px}
+#subcon input{background:rgba(0,0,0,.0);border: none;outline: none;border-bottom: 1px solid #fff;color: white;margin: 10px 0px}
+#subcon textarea{background:rgba(0,0,0,.0);border: none;outline: none;border-bottom: 1px solid #fff;color: #fff;margin: 10px 0px}
+
+#subcon .namein{padding: 0px 25px}
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+*{margin: 0;padding: 0}
+	#slidebar{
+		display: none;
+	}
+	html{scroll-behavior: smooth;}
+ #mainheader{z-index:-2}
+#navbar ul li{list-style: none;float: left}
+#navbar ul li a{text-decoration: none;padding: 0px 8px;color: white;font-size: 14px}
+#description{position: absolute;top: 35%;left: 0%;color: white}
+#description p{word-spacing: 5px;letter-spacing: 2px;padding: 0px 0px;font-size: 16px}
+#description h1{font-size: 24px}
+#description {text-align: center;padding:15px 12px}
+#extraheader{
+content: "";
+position:relative;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 60vh;
+width: 100%;
+background: url("colorBrush.jpg");
+z-index: -1;
+background-size:cover;
+background-repeat: no-repeat;
+
+
+}
+.experience{text-align:center;color:white;background:#10302f }
+#experience-item h2{margin: 100px 0px}
+
+#experience-item span{padding: 50px 50px;border-radius: 50%;font-size:36px;background:#2d20d0}
+.experiencepage{display: none}
+#extranav{display: none}
+.footer{display: none}
+.displaymobile{padding: 50% 0px;color: red;text-align:center;font-size: 18px }
+.displaymobile button{border: none;outline: none;background: red;color: white!important;padding: 25px 35px;border-radius: 10px}
+.displaymobile button a{color:white;}
+
+
+    .review{display: none}
+
+
+
+
+
+.card-tiitlembl{text-align: center;transition: all .5s;padding: 15px 0px}
+.card-tiitlembl img{width: 100px ;height: 100px;border-radius: 50%}
+.reviewmbl{padding: 100px 0px}
+.reviewmbl h1{text-align: center;padding-bottom: 50px;color: green}
+.card-tiitlembl:hover{box-shadow: 0 0 55px 0 rgba(0,0,0,0.4);transform: scale(1.1);}
+
+
+.rate{display: none}
+
+.ratembl{text-align: center;padding: 100px 0px;}
+.ratembl h1{padding: 40px 0px;color: green}
+
+.ratembl span{font-size: 24px;color:yellow;transition: .5s}
+.ratembl-item{margin: 15px 0px}
+.ratembl-item:hover span{color: yellow;}
+.ratembl-item{padding: 50px 35px;background: #008080;color: white;transition: all .6s}
+.ratembl-item:hover{box-shadow: 0 0 55px 0 rgba(0,0,0,0.6);transform: translateY(-20px);}
+.ratembl-item:hover p{color:#ffff00}
+.ratembl-item button{background: #8739c6;;color: white;padding: 0px 15px ;border: none;outline: none;border-radius: 8px}
+.ratembl-item:hover button{background:red}
+
+.extracon{display: none}
+.extraconmbl{background: url("10069.jpg");background-size: cover;background-repeat: no-repeat;color: white}
+#subconmbl{padding:70px 10px;}
+#subconmbl input{margin: 7px 0px;border: none;outline: none;border-bottom: 3px solid white;background:rgba(0,0,0,.0);padding: 5px 0px;color:black}
+#subconmbl textarea{margin: 7px 0px;border: none;outline: none; border-bottom: 1px solid white;background:rgba(0,0,0,.0);}
+#formmbl{background:rgba(0,0,0,.3);padding: 0px 10px}
+#formmbl.nameinmbl{padding: 0px 10px}
+#navbar{display: none}
+#navbarnavmbl{background: #8739c6;}
+#navbarnavmbl a{color: white}
+
+.footermbl{background: black;padding: 30px 0px}
+.footermbl li{list-style: none}
+.footermbl li a{color: #fff}
+.footermbl i{padding: 0px 5px}
+.footermbl button{border: none;background: red;color: white;padding: 5px 8px}
+
+
+
+
+}
+
+
+}
